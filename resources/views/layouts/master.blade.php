@@ -229,12 +229,22 @@
             const forFaq = document.querySelectorAll('.forFaq');
             const forAbout = document.querySelectorAll('.forAbout')
             const forCourse = document.querySelectorAll('.forCourse')
+            const forNews = document.querySelectorAll('.forNews')
             const forTeam = document.querySelectorAll('.forTeam')
             const forTest = document.querySelectorAll('.forTest')
             const forContact = document.querySelectorAll('.forContact')
 
             if (window.location.pathname === "/index.php/faqs") {
                 forFaq.forEach(home => home.setAttribute('href', "#top"))
+                forHome.forEach(home => home.setAttribute('href', "{{ route('home') }}"))
+                forAbout.forEach(home => home.setAttribute('href', "{{ route('home') }}#about"))
+                forCourse.forEach(home => home.setAttribute('href', "{{ route('home') }}#courses"))
+                forContact.forEach(home => home.setAttribute('href', "{{ route('home') }}#contact"))
+                forTeam.forEach(home => home.setAttribute('href', "{{ route('home') }}#team"))
+                forTest.forEach(home => home.setAttribute('href', "{{ route('home') }}#testimonial"))
+            }
+            if (window.location.pathname === "/index.php/sabi_news") {
+                forNews.forEach(home => home.setAttribute('href', "#top"))
                 forHome.forEach(home => home.setAttribute('href', "{{ route('home') }}"))
                 forAbout.forEach(home => home.setAttribute('href', "{{ route('home') }}#about"))
                 forCourse.forEach(home => home.setAttribute('href', "{{ route('home') }}#courses"))

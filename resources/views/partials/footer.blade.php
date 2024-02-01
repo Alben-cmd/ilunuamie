@@ -2,8 +2,7 @@
     <footer id="footer">
         <div class="container">
             <div class="row">
-
-                {{-- <div class="col-md-4 col-sm-6">
+                <!-- <div class="col-md-4 col-sm-6">
                     <div class="footer-info">
                         <div class="section-title">
                             <h2>Contact Address</h2>
@@ -18,12 +17,8 @@
                             <li><a href="#" class="fa fa-twitter"></a></li>
                             <li><a href="#" class="fa fa-instagram"></a></li>
                         </ul>
-
-
                     </div>
-                </div> --}}
-
-
+                </div>  -->
                 <div class="col-md-4 col-sm-6">
                     <div class="footer-logo-wrapper">
                         <img class="footer-logo" src="{{ asset('assets/images/footerLogo.png') }}" alt="logo">
@@ -35,15 +30,13 @@
                         </ul>
                     </div>
                 </div>
-
-
                 <div class="col-md-4 col-sm-6">
                     <div class="footer-info">
                         <div class="section-title">
                             <h2>Contact Info</h2>
                         </div>
                         <address>
-                            {{-- <p>Call Support :<a href="tel:+2348103966057">+2348103966057</a></p> --}}
+                             <!-- <p>Call Support :<a href="tel:+2348103966057">+2348103966057</a></p>  -->
                             <p><a href="#" class="fa fa-envelope"></a> <a
                                     href="mailto:contact@sabimoni.org.ng?subject=SabiMONI Contact Us Request">
                                     contact@sabimoni.org.ng</a></p>
@@ -70,12 +63,10 @@
                         </div>
                     </div>
                 </div>
-
-
                 <div class="col-md-4 col-sm-6">
                     <div class="footer-info">
                         <div class="section-title">
-                            <h2>Contact Info</h2>
+                            <h2>Address</h2>
                         </div>
                         <address>
                             <p>
@@ -85,16 +76,12 @@
                                 Cadastral Zone, <br>
                                 Abuja, Federal Capital Territory, <br>
                                 Nigeria <br>
-
                             </p>
-
-                            {{-- <p>Central Bank of Nigeria,<br>P.M.B. 0187,<br>Garki Abuja.
-                                Nigeria</p> --}}
                         </address>
                     </div>
                 </div>
 
-                {{-- <div class="col-md-4 col-sm-12">
+                <!-- <div class="col-md-4 col-sm-12">
                     <div class="footer-info newsletter-form">
                         <div class="section-title">
                             <h2>Newsletter Signup</h2>
@@ -111,21 +98,19 @@
                             </div>
                         </div>
                     </div>
-                </div> --}}
+                </div>  -->
 
             </div>
         </div>
         <hr>
         <div class="copyright-text text-center ">
-            <p>Copyright &copy; 2022 SabiMONI Learning Portal</p>
+            <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> SabiMONI Learning Portal</p>
 
             <p id="terms_and_conditions" class="terms_and_conditions"><a href="/index.php/terms_of_use"
-                    target="_blank">Terms of
+                    target="_blank" style="color:#29ca8e">Terms of
                     Use/Privacy</a></p>
         </div>
-
-
-        <div id="margin_remove" style="margin-bottom: 130px;">
+        <!-- <div id="margin_remove" style="margin-bottom: 130px;">
             <div id="term_visibility" class=" copyright-text text-center"
                 style="color: #909090; display: none; height: 0px; transition: all 2s ease-in-out; position: relative">
                 <p class="container-fluid terms_modal"
@@ -146,10 +131,6 @@
 
             </div>
         </div>
-
-
-
-
         <div id="agree_display"
             style=" background-color: #F9F9F9; position: fixed; bottom: 0px; left: 0px; z-index: 50; width: 100%; display: flex">
 
@@ -163,5 +144,5 @@
                     style="font:bold; color: white; background:#777777; padding: 5px 20px; outline: none; border:none; border-radius: 5px; ">Agree</button>
             </p>
 
-        </div>
+        </div> -->
     </footer>

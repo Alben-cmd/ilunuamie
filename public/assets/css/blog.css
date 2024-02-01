@@ -125,6 +125,52 @@
 .bc4-item3 > h4 {
     font-weight: bold !important;
 }
+/* -------------------------Pagenatation-------------------------------- */
+.blog .blog-pagination {
+    color: #29ca8e;
+  }
+  
+  .blog .blog-pagination ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .blog .blog-pagination li {
+    border: 1px solid white;
+    margin: 0 5px;
+    transition: 0.3s;
+  }
+  
+  .blog .blog-pagination li.active {
+    background: white;
+  }
+  
+  .blog .blog-pagination li a {
+    color: #aaaaaa;
+    padding: 7px 16px;
+    display: inline-block;
+  }
+  
+  .blog .blog-pagination li.active, .blog .blog-pagination li:hover {
+    background: #e03a3c;
+    border: 1px solid #e03a3c;
+  }
+  
+  .blog .blog-pagination li.active a, .blog .blog-pagination li:hover a {
+    color: #fff;
+  }
+  
+  .blog .blog-pagination li.disabled {
+    background: #fff;
+    border: 1px solid white;
+  }
+  
+  .blog .blog-pagination li.disabled i {
+    color: #f1f1f1;
+    padding: 10px 16px;
+    display: inline-block;
+  }
 
 /* -------------------------Responsiveness-------------------------------- */
 

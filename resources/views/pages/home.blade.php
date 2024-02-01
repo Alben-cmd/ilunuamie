@@ -91,7 +91,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-6 col-sm-6">
                     <div class="about-info">
                         <h2>About <strong>SabiMONI</strong></h2>
                         <p align="justify">Financial literacy impacts almost every aspect of our lives today. Whether we go
@@ -100,9 +100,7 @@
                             how money works has a strong effect on the quality of our lives.</p>
 
                         <p align="justify">This e-learning platform offers Financial education tailored towards
-                            those interested in
-                            becoming Certified Financial Literacy Trainer (CFLT) as well as consumers who want to improve
-                            their financial wellbeing.</p>
+                            those interested in becoming Certified Financial Literacy Trainer (CFLT) as well as consumers who want to improve their financial wellbeing.</p>
 
                         <figure>
                             <span><i class="fa fa-users"></i></span>
@@ -113,13 +111,13 @@
                             </figcaption>
                         </figure>
 
-                        {{-- <figure>
+                       <!-- <figure>
                               <span><i class="fa fa-certificate"></i></span>
                               <figcaption>
                                    <h3>International Certifications</h3>
                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsa voluptatibus.</p>
                               </figcaption>
-                         </figure> --}}
+                         </figure>  -->
 
                         <figure>
                             <span><i class="fa fa-bar-chart-o"></i></span>
@@ -132,35 +130,26 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-6 col-sm-6">
                     <div class="about-info">
                         <div class="button-edit">
-                            {{-- <h2>Start your journey to a better life....</h2> --}} <br>
-                            {{-- <iframe width="500" height="350"
-                                src="{{ asset('assets/images/videos/dgvideowsound.mp4') }}" frameborder="0"
-                                id="video"
-                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe> --}}
-
                             <video style="width: 100%;" height="350" controls id="video">
                                 <source src="{{ asset('assets/images/videos/dgvideowsound.mp4') }}" type="video/mp4">
 
                                 Your browser does not support the video tag.
                             </video>
-                            {{-- <div class="button-edit-1"><img id="play"
-                                    src="{{ url('/assets/images/videos/playbutton.png') }}" alt="image not found"></div> --}}
                         </div>
 
 
                         <div style="display:inline-block; vertical-align: middle;">
-                            <div style="font-weight:bold;">Mrs. Aishah N. Ahmad (CFA)</div>
+                            <div style="font-weight:bold;">Mrs. Aishah Ahmad CFA</div>
                             <div> Deputy Governor, Financial System Stability, Central Bank Of Nigeria</div>
                         </div>
 
                     </div>
                 </div>
 
-                {{-- <div class="col-md-offset-1 col-md-4 col-sm-12">
+                <!-- <div class="col-md-offset-1 col-md-4 col-sm-12">
                     <div class="entry-form">
                          <form action="#" method="post">
                               <h2>Signup today</h2>
@@ -173,7 +162,7 @@
                               <button class="submit-btn form-control" id="form-submit">Get started</button>
                          </form>
                     </div>
-               </div> --}}
+               </div>  -->
 
             </div>
         </div>
@@ -199,13 +188,11 @@
                                                 class="img-responsive" alt="certified financial literacy trainer">
                                         </div>
                                         <div class="courses-date">
-                                            {{-- <span><i class="fa fa-calendar"></i> 12 / 7 / 2018</span>
-                                            <span><i class="fa fa-clock-o"></i> 7 Hours</span> --}}
                                         </div>
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="javascript:void(0)" class="disabled">Certified Financial Literacy
+                                        <h3><a href="/index.php/about_cflt" class="disabled">Certified Financial Literacy
                                                 Trainer (CFLT)</a></h3>
                                         <p class="text-justify">An individual who has taken all the Financial Literacy
                                             Modules, Learning Methodology on the SabiMONI platform and obtained a pass mark
@@ -231,129 +218,6 @@
                             </div>
                         </div>
 
-                        {{-- <div class="col-md-4 col-sm-4">
-                              <div class="item">
-                                   <div class="courses-thumb">
-                                        <div class="courses-top">
-                                             <div class="courses-image">
-                                                  <img src="{{ asset('assets/images/courses-image2.jpg') }}" class="img-responsive" alt="image not found">
-                                             </div>
-                                             <div class="courses-date">
-                                                  <span><i class="fa fa-calendar"></i> 20 / 7 / 2018</span>
-                                                  <span><i class="fa fa-clock-o"></i> 4.5 Hours</span>
-                                             </div>
-                                        </div>
- 
-                                        <div class="courses-detail">
-                                             <h3><a href="#">Graphic & Web Design</a></h3>
-                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
- 
-                                        <div class="courses-info">
-                                             <div class="courses-author">
-                                                  <img src="{{ asset('assets/images/author-image2.jpg') }}" class="img-responsive" alt="image not found">
-                                                  <span>Jessica</span>
-                                             </div>
-                                             <div class="courses-price">
-                                                  <a href="#"><span>USD 80</span></a>
-                                             </div>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
- 
-                         <div class="col-md-4 col-sm-4">
-                              <div class="item">
-                                   <div class="courses-thumb">
-                                        <div class="courses-top">
-                                             <div class="courses-image">
-                                                  <img src="{{ asset('assets/images/courses-image3.jpg') }}" class="img-responsive" alt="image not found">
-                                             </div>
-                                             <div class="courses-date">
-                                                  <span><i class="fa fa-calendar"></i> 15 / 8 / 2018</span>
-                                                  <span><i class="fa fa-clock-o"></i> 6 Hours</span>
-                                             </div>
-                                        </div>
- 
-                                        <div class="courses-detail">
-                                             <h3><a href="#">Marketing Communication</a></h3>
-                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
- 
-                                        <div class="courses-info">
-                                             <div class="courses-author">
-                                                  <img src="{{ asset('assets/images/author-image3.jpg') }}" class="img-responsive" alt="image not found">
-                                                  <span>Catherine</span>
-                                             </div>
-                                             <div class="courses-price free">
-                                                  <a href="#"><span>Free</span></a>
-                                             </div>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div> --}}
-
-                        {{-- <div class="col-md-4 col-sm-4">
-                              <div class="item">
-                                   <div class="courses-thumb">
-                                        <div class="courses-top">
-                                             <div class="courses-image">
-                                                  <img src="{{ asset('assets/images/courses-image4.jpg') }}" class="img-responsive" alt="image not found">
-                                             </div>
-                                             <div class="courses-date">
-                                                  <span><i class="fa fa-calendar"></i> 10 / 8 / 2018</span>
-                                                  <span><i class="fa fa-clock-o"></i> 8 Hours</span>
-                                             </div>
-                                        </div>
- 
-                                        <div class="courses-detail">
-                                             <h3><a href="#">Summer Kids</a></h3>
-                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
- 
-                                        <div class="courses-info">
-                                             <div class="courses-author">
-                                                  <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive" alt="image not found">
-                                                  <span>Mark Wilson</span>
-                                             </div>
-                                             <div class="courses-price">
-                                                  <a href="#"><span>USD 45</span></a>
-                                             </div>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div> --}}
-
-                        {{-- <div class="col-md-4 col-sm-4">
-                              <div class="item">
-                                   <div class="courses-thumb">
-                                        <div class="courses-top">
-                                             <div class="courses-image">
-                                                  <img src="{{ asset('assets/images/courses-image5.jpg') }}" class="img-responsive" alt="image not found">
-                                             </div>
-                                             <div class="courses-date">
-                                                  <span><i class="fa fa-calendar"></i> 5 / 10 / 2018</span>
-                                                  <span><i class="fa fa-clock-o"></i> 10 Hours</span>
-                                             </div>
-                                        </div>
- 
-                                        <div class="courses-detail">
-                                             <h3><a href="#">Business &amp; Management</a></h3>
-                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
- 
-                                        <div class="courses-info">
-                                             <div class="courses-author">
-                                                  <img src="{{ asset('assets/images/author-image2.jpg') }}" class="img-responsive" alt="image not found">
-                                                  <span>Jessica</span>
-                                             </div>
-                                             <div class="courses-price free">
-                                                  <a href="#"><span>Free</span></a>
-                                             </div>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div> --}}
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
                                 <div class="courses-thumb">
@@ -369,7 +233,7 @@
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="javascript:void(0)">Shared Agent Network Expansion Facility (SANEF)</a></h3>
+                                        <h3><a href="/index.php/about_sanef">Shared Agent Network Expansion Facility (SANEF)</a></h3>
                                         <p class="text-justify">The SANEF training aims to equip it's Agent with basic
                                             financial literacy knowledge to better serve their clients, improve their
                                             businesses and their level of financial literacy with the goal of promoting the
@@ -406,7 +270,7 @@
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="javascript:void(0)">National Peer Group Educator Programme
+                                        <h3><a href="/index.php/about_napgep">National Peer Group Educator Programme
                                                 (NAPGEP)</a></h3>
                                         <p class="text-justify">This programme leverages on the platform of the National
                                             Youth Services Corps (NYSC) to train selected Volunteer Corps Members (VCMs) on
@@ -437,11 +301,11 @@
     </section>
 
     <!-- TEAM -->
-    <section id="team">
+   <section id="team">
         <div class="container">
             <div class="row">
 
-                <div class="col-md-6 col-sm-6 col-6" style="display: flex; flex-direction: column; align-items: center">
+                <div class="col-md-6 col-sm-6" style="display: flex; flex-direction: column; align-items: center">
                     <div class="section-title latest-news-title">
                         <h2>Related Information<small>Read through our blog for recent updates</small></h2>
                     </div>
@@ -459,8 +323,9 @@
                                     <p class="text-justify">Today, more and more purchases are done through digital
                                         channels, especially via online payments. The internet offers the convenience and
                                         ease of buying goods or paying for services via your computer, tablet or mobile
-                                        phones. However, the use of online payments  ... <a href="/index.php/fraud_scam"><span>Read
-                                                More</span></a>
+                                        phones. However, the use of online payments ... <a
+                                            href="/index.php/fraud_scam"><span><b>Read
+                                                    More</b></span></a>
 
                                 </div>
 
@@ -478,34 +343,28 @@
                                         is to ensure Financial System Stability. The role of the Consumer Protection
                                         department therefore is to engender confidence in Financial consumers by
                                         ensuring: Consumers are equipped with adequate Financial Education ... <a
-                                            href="/index.php/rights_responsiblities"><span>Read
-                                                More</span></a>
+                                            href="/index.php/rights_responsiblities"><span><b>Read
+                                                    More</b></span></a>
 
                                 </div>
-
-
                             </div>
                         </div>
 
                         <div class="item" style=" background: white;">
                             <div class="courses-thumb" style="background: white">
-
-
                                 <div class="courses-detail">
-                                    <h3 style="text-align: left"><a href="javascript:void(0)"
-                                            class="disabled">e -Naira</a></h3>
+                                    <h3 style="text-align: left"><a href="javascript:void(0)" class="disabled">e
+                                            -Naira</a></h3>
                                     <p class="text-justify">The eNaira is the Central Bank of Nigeria-issued digital
                                         currency.
                                         It is the digital representation of the Nigerian Naira and constitutes a direct
                                         liability of the Central Bank of Nigeria (CBN). The eNaira was launched by the
                                         President
                                         of the Federal Republic of Nigeria on October 25, 2021 ... <a
-                                            href="/index.php/e_naira"><span>Read
-                                                More</span></a>
+                                            href="/index.php/e_naira" class="read-more"><span><b>Read
+                                                    More</b></span></a>
 
                                 </div>
-
-
                             </div>
                         </div>
 
@@ -515,115 +374,33 @@
                     {{-- testing lates news end --}}
                 </div>
                 <div class="col-md-6 col-sm-6 col-6 second-news-res">
-                    <div class="section-title">
+                    <div class="section-title latest-news-title">
                         <h2>News<small>Read through our blog for recent updates</small></h2>
                     </div>
-                    <h4 style="color:red;">
-                        <marquee width="60%" direction="left" height="100px">
-                            News section to be populated soon...
-                        </marquee>
-                    </h4>
+                    <div class="owl-carousel owl-theme owl-news">
+                        @forelse ($news as $key => $item)
+                        <div class="item" style=" background: white;">
+                            <div class="courses-thumb" style="background: white">
+                                <div class="courses-detail">
+                                    
+                                    
+                                            {!! $item['title'] !!}
+                                         
+                                            {!! \Illuminate\Support\Str::limit($item->news, 290, $end='...') !!}
+                                        <a href=" {{ route('single.news', ['id' => $item['id'] ]) }} "><span><b>Read More</b></span></a>
+
+                                </div>
+                            </div>
+                        </div>
+                        @empty
+                        News coming soon!
+                        @endforelse
+                    </div>
+
+                    
                 </div>
-
-
-                {{-- <div class="col-md-3 col-sm-6">
-                    <div class="team-thumb">
-                        <div class="team-image">
-                            <img src="{{ asset('assets/images/news/bank.png') }}" class="img-responsive" alt="image not found">
-                        </div>
-                        <div class="team-info text-justify">
-                            <h5 style="font-weight: bold;">Eliminating And Avoiding Debt</h5>
-                            <span>Debt is one of the biggest hurdles many younger generations are facing today. When you
-                                have the financial education, you start to know how debt works <a
-                                    href="{{ route('blog') }}" style="color: red;">Read
-                                    More</a></span>
-                        </div>
-                        <ul class="social-icon">
-                            <li><a href="#" class="fa fa-calendar" attr="calendar icon"></a>Dec 8, 2020</li>
-                        </ul>
-                    </div>
-                </div> --}}
-
-                {{-- <div class="col-md-3 col-sm-6">
-                    <div class="team-thumb">
-                        <div class="team-image">
-                            <img src="{{ asset('assets/images/news/finance-books-.png') }}" class="img-responsive"
-                                alt="image not found">
-                        </div>
-                        <div class="team-info text-justify">
-                            <h5 style="font-weight: bold;">Financial Literacy: Meanings and Descriptions</h5>
-                            <span> Financial literacy is not something you will magically know. Majority of schools and
-                                institutions are not teaching personal finances to students.<a href="{{ route('blog') }}"
-                                    style="color: red;">Read
-                                    More</a></span>
-                        </div>
-                        <ul class="social-icon">
-                            <li><a href="#" class="fa fa-calendar" attr="calendar icon"></a>Dec 8, 2020</li>
-                        </ul>
-                    </div>
-                </div> --}}
-
-                {{-- <div class="col-md-3 col-sm-6">
-                    <div class="team-thumb">
-                        <div class="team-image">
-                            <img src="{{ asset('assets/images/news/time-is-money.png') }}" class="img-responsive"
-                                alt="image not found">
-                        </div>
-                        <div class="team-info text-justify">
-                            <h5 style="font-weight: bold;">Achieve Financial Literacy on your Own</h5>
-                            <span> Since you might not have had any classes or had much insight, its up to you to become
-                                financially literate and develop good financial habits. <a href="{{ route('blog') }}"
-                                    style="color: red;">Read
-                                    More</a></span>
-                        </div>
-                        <ul class="social-icon">
-                            <li><a href="#" class="fa fa-calendar" attr="calendar icon"></a>Dec 6, 2020</li>
-                        </ul>
-                    </div>
-                </div> --}}
-
-                {{-- <div class="col-md-3 col-sm-6">
-                    <div class="team-thumb">
-                        <div class="team-image">
-                            <img src="{{ asset('assets/images/news/money-tree.png') }}" class="img-responsive" alt="image not found">
-                        </div>
-                        <div class="team-info text-justify">
-                            <h5 style="font-weight: bold;">Break your Consumer Mentality </h5>
-                            <span> Instead of letting money control you, now you hold the reins to your personal finances.
-                                This empowers you and makes you feel more confident and decisive with your money. <a
-                                    href="{{ route('blog') }}" style="color: red;">Read
-                                    More</a></span>
-                        </div>
-                        <ul class="social-icon">
-                            <li><a href="#" class="fa fa-calendar" attr="calendar icon"></a>Dec 6, 2020</li>
-                        </ul>
-                    </div>
-                </div> --}}
-
-
-
-
-                {{-- <div class="col-md-3 col-sm-6">
-                    <div class="team-thumb">
-                         <div class="team-image">
-                              <img src="{{ asset('assets/images/author-image4.jpg') }}" class="img-responsive" alt="image not found">
-                         </div>
-                         <div class="team-info">
-                              <h3>Andrew Berti</h3>
-                              <span>Learning is fun</span>
-                         </div>
-                         <ul class="social-icon">
-                              <li><a href="#" class="fa fa-twitter"></a></li>
-                              <li><a href="#" class="fa fa-google"></a></li>
-                              <li><a href="#" class="fa fa-behance"></a></li>
-                         </ul>
-                    </div>
-               </div> --}}
-
             </div>
-        </div>
-    </section>
-
+    </section> 
 
     <!-- TESTIMONIAL -->
     <section id="testimonial">
